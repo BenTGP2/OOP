@@ -1,0 +1,17 @@
+--//Enemy Core\\--
+local Enemy = script.Parent
+local Clone = Enemy:Clone
+local TS = game:GetService("TweenService")
+local Remotes = game.ReplicatedStorage.Remotes
+local Tier = Clone.Tier.Value
+local EnemyModel = Clone.Model.Value
+
+--OverWorld Display--
+local EnemyDisplay = Clone.HumanoidRootPart.EnemyDisplay
+local Health = 100*2^(tier-1)
+
+EnemyDisplay.Text = 'Tier {Tier}'
+
+local TweenInformation = {
+	Clone.HumanoidRootPart.CFrame = CFrame
+}
