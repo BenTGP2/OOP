@@ -1,3 +1,5 @@
+Books = {}
+
 class Book:
     def __init__(self):
         self.title = ""
@@ -13,12 +15,18 @@ class Book:
         self.book_id = input("Enter the book ID: ")
         self.publisher = input("Enter the publisher: ")
 
+        Books.update({self.title: self.author_id, self.publish_date: self.publisher})
+
+
     def book_information(self):
         print("The title of the book is", self.title)
         print("The ID of the book is", self.book_id)
         print("The author of the book is", self.author_id)
         print("The publish date of the book is", self.publish_date)
         print("The publisher of the book is", self.publisher)
+
+        for x in Books:
+            print(x)
 
 class Author:
     def __init__(self):
@@ -68,8 +76,16 @@ class User:
         print("The phone of the user is", self.phone)
         print("The email of the user is", self.email)
 
-    def checkout_book(self, book1):
-        self.books_borrowed.append(book1)
+        for x in self.books_borrowed:
+            print("IDs of borrowed books: ", x)
+
+    def checkout_book(self):
+        BookID = input("Enter the ID of the book you would like to check out: ")
+        self.books_borrowed.append(BookID)
+
+book = Book()
+author = Author()
+user = User()
 
 while True:
     print("1. Display book information")
@@ -81,10 +97,6 @@ while True:
     print("7. Register a user")
     print("8. Terminate program")
 
-    book = Book()
-    author = Author()
-    user = User()
-
     Input = input("Enter your selection:")
     if Input == "1":
         book.book_information()
@@ -93,7 +105,7 @@ while True:
     elif Input == "3":
         user.user_information()
     elif Input == "4":
-        user.checkout_book(book)
+        user.checkout_book()
     elif Input == "5":
         book.add_book()
     elif Input == "6":
@@ -103,3 +115,4 @@ while True:
     elif Input == "8":
         print("Terminating program...")
         break
+
