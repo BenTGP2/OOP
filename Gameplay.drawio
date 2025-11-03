@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="3IhzTYHEY-dVgF9H_Zgz">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-1" value="Defeat enemy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-1" target="ipK7qo5y7EV_Qezv-qiP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="200" as="sourcePoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-4" value="Gain Currency/Loot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-5" value="Spend Currency&lt;div&gt;On Upgrades/Abilities&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-4" target="ipK7qo5y7EV_Qezv-qiP-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="500" as="sourcePoint" />
+            <mxPoint x="660" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ipK7qo5y7EV_Qezv-qiP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="280" as="sourcePoint" />
+            <mxPoint x="350" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;CORE GAMEPLAY LOOP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="280" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-9" value="MELEE ATTACKS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-10" value="[SLICE]&lt;div&gt;Swing your weapon in front of you, damaging anything in its path.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-9" target="ipK7qo5y7EV_Qezv-qiP-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="680" as="sourcePoint" />
+            <mxPoint x="190" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-12" value="[SPIN]&lt;div&gt;Spin around in an arc damaging enemies above as well as below you.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-13" value="[DASH]&lt;div&gt;Quickly bolt forwards, piercing through anything in front of your character.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-9" target="ipK7qo5y7EV_Qezv-qiP-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="690" as="sourcePoint" />
+            <mxPoint x="390" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-9" target="ipK7qo5y7EV_Qezv-qiP-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="680" as="sourcePoint" />
+            <mxPoint x="410" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;LMB&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="840" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Q&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="840" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-19" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;E&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="840" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-20" value="RANGED&lt;div&gt;ATTACKS&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-21" value="[SHOOT]&lt;div&gt;Fire a projectile in front of you, traveling in a linear path and damaging anything in its way.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-20" target="ipK7qo5y7EV_Qezv-qiP-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="680" as="sourcePoint" />
+            <mxPoint x="630" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-23" value="[BLAST]&lt;div&gt;Fire a volley of three projectiles, spreading out in a cone shape and dealing heavy damage close range.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-24" value="[PIERCE]&lt;div&gt;Fire a single, powerful shot which travels through multiple walls as well as enemies. (Ignores defense if I add status effects.)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-20" target="ipK7qo5y7EV_Qezv-qiP-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="690" as="sourcePoint" />
+            <mxPoint x="830" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-20" target="ipK7qo5y7EV_Qezv-qiP-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="680" as="sourcePoint" />
+            <mxPoint x="850" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Q&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="840" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-28" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;E&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="840" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;MECHANICS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="590" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-30" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;LMB&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="840" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-31" value="MOVEMENT&lt;div&gt;TECH&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-32" value="[ROLL]&lt;div&gt;Drop to the ground and launch forwards a short distance, allowing you to roll under projectiles.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-31" target="ipK7qo5y7EV_Qezv-qiP-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1000" as="sourcePoint" />
+            <mxPoint x="190" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-34" value="[JUMP]&lt;div&gt;Launch yourself into the air, allowing you to reach new heights as well as combine with attacks for extra uses.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1040" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-35" value="[CROUCH]&lt;div&gt;Get on your knees, allowing you to fit into space you were previously too big for.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1040" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-31" target="ipK7qo5y7EV_Qezv-qiP-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1010" as="sourcePoint" />
+            <mxPoint x="390" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipK7qo5y7EV_Qezv-qiP-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ipK7qo5y7EV_Qezv-qiP-31" target="ipK7qo5y7EV_Qezv-qiP-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1000" as="sourcePoint" />
+            <mxPoint x="410" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
